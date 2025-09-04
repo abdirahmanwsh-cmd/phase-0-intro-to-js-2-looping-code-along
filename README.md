@@ -18,7 +18,14 @@ we will learn about a third: the _for_ loop.
 Let's say we have a bunch of gifts to wrap. They all happen to be the same size
 and shape, so for every gift, we need to cut a similarly sized piece of wrapping
 paper, fold it up over the edges of the gift, tape it together, and add a nice
+little card. Then we set the wrapped gift aside and move on to the next gift.Let's say we have a bunch of gifts to wrap. They all happen to be the same size
+and shape, so for every gift, we need to cut a similarly sized piece of wrapping
+paper, fold it up over the edges of the gift, tape it together, and add a nice
 little card. Then we set the wrapped gift aside and move on to the next gift.
+
+In programming terms, we can think of our **collection** of gifts as an
+**`Array`** and the act of wrapping them as a function. For example:
+
 
 In programming terms, we can think of our **collection** of gifts as an
 **`Array`** and the act of wrapping them as a function. For example:
@@ -89,7 +96,7 @@ Enter the code below into the `index.js` file.
 > develops muscle memory and helps your brain understand and internalize the
 > syntax.
 
-```js
+```js0
 for (let age = 30; age < 40; age++) {
   console.log(`I'm ${age} years old. Happy birthday to me!`);
   debugger;
